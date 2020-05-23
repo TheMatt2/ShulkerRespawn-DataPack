@@ -8,7 +8,7 @@
 ##########################################
 
 # Main logic
-execute in the_end at @s[gamemode=!spectator] as @e[type=minecraft:enderman,distance=20..50,sort=random,limit=1] run execute as @s at @s if block ~ ~-1 ~ #respawn:city_blocks unless entity @e[type=shulker,distance=0..6] unless entity @e[type=player,gamemode=!spectator,distance=0..20] run tag @s add shulkerize
+execute in the_end at @s[gamemode=!spectator] as @e[type=minecraft:enderman,nbt={OnGround:1b},distance=20..50,sort=random,limit=1] run execute at @s unless data entity @s CustomName if block ~ ~-1 ~ #respawn:city_blocks unless entity @e[type=shulker,distance=0..6] unless entity @e[type=player,gamemode=!spectator,distance=0..20] run tag @s add shulkerize
 
 execute as @e[type=minecraft:enderman,tag=shulkerize] at @s run summon minecraft:shulker ~ ~ ~ {Color:16}
 execute as @e[type=minecraft:enderman,tag=shulkerize] at @s run tp @s ~ -999 ~
