@@ -6,8 +6,8 @@
         },
         "show_toast": false,
         "announce_to_chat": false,
-        "hidden":true,
-        "title": "Higlands Detected",
+        "hidden": true,
+        "title": "Highlands Detected",
         "description": {"text":"Visit www.madcatgaming.com for more information"}
     },
     "criteria": {

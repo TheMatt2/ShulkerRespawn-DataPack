@@ -4,7 +4,7 @@
 # Version: 1.0
 # Minecraft Version 1.13
 # Description:
-# Disables Shulker Respawn data pack
+# Disables Shulker Respawn datapack
 ##########################################
 
 datapack disable "file/ShulkerRespawn.zip"
