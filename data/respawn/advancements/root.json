@@ -10,8 +10,8 @@
         "announce_to_chat": false
     },
     "criteria":{
-           "root_functions": {
-               "trigger": "minecraft:impossible"
-           }
-	}
+        "root_functions": {
+            "trigger": "minecraft:impossible"
+        }
+    }
 }
