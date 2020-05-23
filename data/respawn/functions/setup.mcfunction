@@ -2,7 +2,7 @@
 # Author: MadCat (youtube.com/MadCatHoG)
 # Date: Jul 29, 2018
 # Version: 1.0
-# Minecraft Version 1.13
+# Minecraft Version 1.13-1.15
 # Description:
 # Confirms ShulkerRespawn datapack is installed
 ##########################################
